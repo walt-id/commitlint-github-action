@@ -46,7 +46,7 @@ outputs:
     description: The error and warning messages for each one of the analyzed commits
 runs:
   using: docker
-  image: docker://waltid/commitlint-github-action:3
+  image: docker://waltid/commitlint-github-action:4
 branding:
   icon: check-square
   color: blue
