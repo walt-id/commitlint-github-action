@@ -78,6 +78,10 @@ function getHistoryCommits(from, to) {
     options.firstParent = true
   }
 
+  if (getInput('noMerges') === 'true')  {
+    options.noMerges = true
+  }
+
   if (!from) {
     options.maxCount = 1
   }
