@@ -14,6 +14,13 @@ inputs:
       https://git-scm.com/docs/git-log#Documentation/git-log.txt---first-parent
     default: "true"
     required: false
+  noMerges:
+    description: >
+      When set to true, merge commits are ignored.
+      More info in git-log docs
+      https://git-scm.com/docs/git-log#Documentation/git-log.txt---no-merges
+    default: "false"
+    required: false
   failOnWarnings:
     description: Whether you want to fail on warnings or not
     default: "false"

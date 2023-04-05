@@ -46,6 +46,14 @@ This helps to ignore errors in commits that were already present in your default
 
 Default: `true`
 
+### 'noMerges'
+
+When set to true, merge commits are ignored.
+
+More info in [git-log docs](https://git-scm.com/docs/git-log#Documentation/git-log.txt---first-parent).
+
+Default: `false`
+
 ### `failOnWarnings`
 
 Whether you want to fail on warnings or not.
